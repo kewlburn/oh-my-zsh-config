@@ -39,3 +39,5 @@ PROMPT='%{$fg[magenta]%}$(toon)%{$reset_color%} %~/ %{$reset_color%}${vcs_info_m
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
+
+RPROMPT="%D{%L:%M:%S %p}"
